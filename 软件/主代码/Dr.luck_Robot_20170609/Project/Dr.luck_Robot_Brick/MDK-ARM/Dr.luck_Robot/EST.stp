@@ -1,0 +1,42 @@
+[Last Settings]
+PROTOCOL=SWD
+DEVICE=STM32F429xG
+Hardware=ST-LINK
+Port=USB
+CpuFreq=
+Blank check before programming (when available)=0
+Verify after programming=1
+Clear memory before loading a file=1
+Erase device memory before programming (when available)=0
+Display a popup window when an error occurs=1
+Log activity=0
+Log file=
+Unlock protection before a programming cycle=1
+Prompt for new programming cycle=0
+Activate secure mode on next project loading=0
+Enable Serial=0
+Start addr=0
+Length=0
+High Base=0
+Low Base=0
+Step=0
+[OPTION BYTE]
+Count=0
+[OTP MEMORY]
+Count=0
+[PROGRAM MEMORY]
+Count=2
+File0=E:\工厂生产资料\EST主控器\主控器\STM32烧录\Dr-BootLoader.hex
+File1=E:\工厂生产资料\EST主控器\主控器\STM32烧录\Dr-main.hex
+Sector 0=1
+Sector 1=1
+Sector 2=1
+Sector 3=1
+Sector 4=1
+Sector 5=1
+Sector 6=1
+Sector 7=1
+Sector 8=1
+Sector 9=1
+Sector 10=1
+Sector 11=1

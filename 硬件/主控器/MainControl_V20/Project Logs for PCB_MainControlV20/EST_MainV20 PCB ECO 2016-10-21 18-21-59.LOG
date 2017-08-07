@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VIN Pin=Q11-1
+Removed Pin From Net: NetName=NetF4_1 Pin=Q11-3
+Removed Pin From Net: NetName=NetF4_1 Pin=Q11-3
+Change Component Footprint: Designator=Q11 Old Footprint=SOT-89 New Footprint=8050SMD
+Added Pin To Net: NetName=NetF4_1 Pin=Q11-1
+Added Pin To Net: NetName=VIN Pin=Q11-3
+Added Pin To Net: NetName=V33 Pin=U4-14
+Added Pin To Net: NetName=VCC Pin=U5-14

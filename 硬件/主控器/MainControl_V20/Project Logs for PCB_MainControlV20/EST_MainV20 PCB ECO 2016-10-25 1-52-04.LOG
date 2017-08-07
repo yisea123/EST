@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=VS_DREQ Pin=U1-100
+Added Pin To Net: NetName=VS_DREQ Pin=U1-93
+Added Pin To Net: NetName=VS_RST Pin=U1-100

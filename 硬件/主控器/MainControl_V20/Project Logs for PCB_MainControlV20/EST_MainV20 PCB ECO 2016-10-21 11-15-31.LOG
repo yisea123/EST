@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U13 Old Footprint=LT1117SMD New Footprint=8050SMD
+Change Component Comment : Designator=U13 Old Comment=LT1117 New Comment=XC6206P
+Added Pin To Net: NetName=V33 Pin=U4-14
+Added Pin To Net: NetName=VCC Pin=U5-14

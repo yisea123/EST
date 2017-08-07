@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=J4-6
+Added Component: Designator=BLE(SIP6)
+Added Pin To Net: NetName=VCC Pin=BLE-1
+Added Pin To Net: NetName=GND Pin=BLE-2
+Added Pin To Net: NetName=BLE_TX Pin=BLE-3
+Added Pin To Net: NetName=BLE_RX Pin=BLE-4
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=BLE_IO1 Pin=BLE-6
+Added Pin To Net: NetName=BLE_IO1 Pin=U1-90
+Added Net: Name=BLE_IO1
+Added Pin To Net: NetName=BLE_IO2 Pin=BLE-5
+Added Pin To Net: NetName=BLE_IO2 Pin=U1-89
+Added Net: Name=BLE_IO2
+Added Member To Class: ClassName=EST_MainV20 Member=Component BLE CON6

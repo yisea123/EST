@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=RXINA_EN Pin=U4-1
+Added Pin To Net: NetName=RXINA_EN Pin=U4-4
+Added Pin To Net: NetName=RXINB_EN Pin=U4-10
+Added Pin To Net: NetName=VCC Pin=U4-14
+Added Pin To Net: NetName=VCC Pin=U5-14
+Added Pin To Net: NetName=RXINB_EN Pin=U54-13
+Added Room: Name=Designator4
+Added Room: Name=EST_MainV20

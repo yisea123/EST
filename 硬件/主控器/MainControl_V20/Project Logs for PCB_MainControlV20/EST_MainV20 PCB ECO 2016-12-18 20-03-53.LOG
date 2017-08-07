@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VS_XDCS Pin=U1-89
+Removed Pin From Net: NetName=VS_XDCS Pin=U14-8
+Added Pin To Net: NetName=VS_XDCS Pin=U1-87
+Added Pin To Net: NetName=VS_DREQ Pin=U1-89
+Added Pin To Net: NetName=VS_DREQ Pin=U14-8
+Added Net: Name=VS_DREQ

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=MAPWM Pin=R123-2
+Removed Pin From Net: NetName=MAPWM Pin=R124-2
+Removed Pin From Net: NetName=MAPWM Pin=U1-139
+Added Pin To Net: NetName=MCPWM Pin=R123-2
+Added Pin To Net: NetName=MCPWM Pin=R124-2
+Added Pin To Net: NetName=MCPWM Pin=U1-139
+Added Net: Name=MCPWM

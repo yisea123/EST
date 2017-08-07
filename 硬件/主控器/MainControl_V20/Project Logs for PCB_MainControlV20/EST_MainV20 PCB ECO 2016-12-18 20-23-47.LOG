@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=BLE_IO2 Pin=BLE-3
+Removed Pin From Net: NetName=BLE_IO1 Pin=BLE-4
+Removed Pin From Net: NetName=BLE_TX Pin=BLE-5
+Removed Pin From Net: NetName=BLE_RX Pin=BLE-6
+Added Pin To Net: NetName=BLE_IO1 Pin=BLE-3
+Added Pin To Net: NetName=BLE_IO2 Pin=BLE-4
+Added Pin To Net: NetName=BLE_RX Pin=BLE-5
+Added Pin To Net: NetName=BLE_TX Pin=BLE-6

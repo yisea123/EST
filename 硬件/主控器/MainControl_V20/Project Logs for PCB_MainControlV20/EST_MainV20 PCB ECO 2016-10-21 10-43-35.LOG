@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetR68_2 Pin=U5-8
+Removed Pin From Net: NetName=TXIND Pin=U5-9
+Removed Pin From Net: NetName=RXIND Pin=U5-11
+Removed Pin From Net: NetName=NetR78_2 Pin=U5-12
+Added Pin To Net: NetName=V33 Pin=U4-14
+Added Pin To Net: NetName=RXIND Pin=U5-8
+Added Pin To Net: NetName=NetR78_2 Pin=U5-9
+Added Pin To Net: NetName=NetR68_2 Pin=U5-11
+Added Pin To Net: NetName=TXIND Pin=U5-12
+Added Pin To Net: NetName=VCC Pin=U5-14

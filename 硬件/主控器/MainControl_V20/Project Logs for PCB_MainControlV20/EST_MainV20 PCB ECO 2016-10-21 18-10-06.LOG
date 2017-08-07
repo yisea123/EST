@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=L2 Old Footprint=L_10x10 New Footprint=L_7x7
+Change Component Footprint: Designator=L3 Old Footprint=L_10x10 New Footprint=L_7x7
+Change Component Comment : Designator=L3 Old Comment=220uH New Comment=10uH
+Added Pin To Net: NetName=VCC Pin=U4-14
+Added Pin To Net: NetName=V33 Pin=U5-14

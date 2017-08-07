@@ -1,0 +1,121 @@
+Removed Pin From Net: NetName=USB_P Pin=D9-1
+Removed Pin From Net: NetName=VCC Pin=J1-1
+Removed Pin From Net: NetName=GND Pin=Q1-1
+Removed Pin From Net: NetName=NetJ3_2 Pin=Q2-3
+Removed Pin From Net: NetName=BELL Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R145-2
+Removed Member From Class: ClassName=Designator4 Member=D9
+Removed Member From Class: ClassName=EST_MainV20 Member=Q1
+Removed Member From Class: ClassName=Designator4 Member=R145
+Change Component Footprint: Designator=J1 Old Footprint=BUZZER200 New Footprint=SIP2
+Change Component Footprint: Designator=R145 Old Footprint=RES_0603 New Footprint=0805
+Change Component Comment : Designator=R311 Old Comment=1K New Comment=2K
+Change Component Comment : Designator=R310 Old Comment=1K New Comment=2K
+Change Component Comment : Designator=R1 Old Comment=1K New Comment=10K
+Change Component Comment : Designator=R6 Old Comment=1K New Comment=330
+Change Component Comment : Designator=R145 Old Comment=1K New Comment=/
+Change Component Comment : Designator=R44 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R43 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R42 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R24 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R23 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R22 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R119 Old Comment=4.7K New Comment=100K
+Change Component Comment : Designator=R101 Old Comment=4.7K New Comment=100K
+Change Component Comment : Designator=R96 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R95 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R94 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R93 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R92 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R90 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R88 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R86 Old Comment=4.7K New Comment=220K
+Change Component Comment : Designator=R36 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R35 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R34 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R16 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R15 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R14 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R8 Old Comment=10K New Comment=0
+Change Component Comment : Designator=R56 Old Comment=10K New Comment=4.7K
+Change Component Comment : Designator=R54 Old Comment=10K New Comment=4.7K
+Change Component Comment : Designator=R52 Old Comment=10K New Comment=4.7K
+Change Component Comment : Designator=R60 Old Comment=10K New Comment=18K
+Change Component Comment : Designator=R59 Old Comment=10K New Comment=18K
+Change Component Comment : Designator=R58 Old Comment=10K New Comment=18K
+Change Component Comment : Designator=R11 Old Comment=10K New Comment=/
+Change Component Comment : Designator=R9 Old Comment=10K New Comment=/
+Change Component Comment : Designator=R156 Old Comment=20K New Comment=30K
+Change Component Comment : Designator=C51 Old Comment=47pF New Comment=100K
+Change Component Comment : Designator=C43 Old Comment=47pF New Comment=100pF
+Change Component Comment : Designator=R120 Old Comment=100K New Comment=200K
+Change Component Comment : Designator=R102 Old Comment=100K New Comment=200K
+Change Component Comment : Designator=R91 Old Comment=220K New Comment=430K
+Change Component Comment : Designator=R89 Old Comment=220K New Comment=430K
+Change Component Comment : Designator=R87 Old Comment=220K New Comment=430K
+Change Component Comment : Designator=R85 Old Comment=220K New Comment=430K
+Change Component Comment : Designator=C52 Old Comment=CAP New Comment=100K
+Change Component Comment : Designator=C44 Old Comment=CAP New Comment=100K
+Change Component Comment : Designator=C54 Old Comment=CAP New Comment=100pF
+Change Component Comment : Designator=C50 Old Comment=CAP New Comment=100pF
+Change Component Comment : Designator=C46 Old Comment=CAP New Comment=100pF
+Change Component Comment : Designator=C42 Old Comment=CAP New Comment=100pF
+Change Component Comment : Designator=E2 Old Comment=CAP New Comment=100uF/16V
+Change Component Comment : Designator=C48 Old Comment=CAP New Comment=104
+Change Component Comment : Designator=C47 Old Comment=CAP New Comment=104
+Change Component Comment : Designator=C22 Old Comment=CAP New Comment=330pF
+Change Component Comment : Designator=C21 Old Comment=CAP New Comment=330pF
+Change Component Comment : Designator=C20 Old Comment=CAP New Comment=330pF
+Change Component Comment : Designator=Q12 Old Comment=NPN New Comment=SS8050
+Change Component Comment : Designator=Q10 Old Comment=NPN New Comment=SS8050
+Change Component Comment : Designator=Q9 Old Comment=NPN New Comment=SS8050
+Change Component Comment : Designator=Q8 Old Comment=NPN New Comment=SS8050
+Change Component Comment : Designator=Q6 Old Comment=PNP New Comment=SS8550
+Change Component Comment : Designator=Q5 Old Comment=PNP New Comment=SS8550
+Change Component Comment : Designator=Q4 Old Comment=PNP New Comment=SS8550
+Change Component Comment : Designator=Q3 Old Comment=PNP New Comment=SS8550
+Change Component Comment : Designator=R150 Old Comment=RES New Comment=1K
+Change Component Comment : Designator=R132 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R126 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R125 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R124 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R123 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R118 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R114 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R100 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R161 Old Comment=RES New Comment=4R7
+Change Component Comment : Designator=R130 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R128 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R121 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R116 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R112 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R110 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R103 Old Comment=RES New Comment=100K
+Change Component Comment : Designator=R122 Old Comment=RES New Comment=200K
+Change Component Comment : Designator=R104 Old Comment=RES New Comment=200K
+Added Component: Designator=R171(RES_0603)
+Added Component: Designator=R172(RES_0603)
+Added Component: Designator=R173(RES_0603)
+Added Component: Designator=R174(RES_0603)
+Added Pin To Net: NetName=BELL Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=BELL Pin=R1-1
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=NetJ3_2 Pin=R145-2
+Added Pin To Net: NetName=GND Pin=R171-1
+Added Pin To Net: NetName=ADCMA Pin=R171-2
+Added Pin To Net: NetName=GND Pin=R172-1
+Added Pin To Net: NetName=ADCMB Pin=R172-2
+Added Pin To Net: NetName=GND Pin=R173-1
+Added Pin To Net: NetName=ADCMC Pin=R173-2
+Added Pin To Net: NetName=GND Pin=R174-1
+Added Pin To Net: NetName=ADCMD Pin=R174-2
+Added Pin To Net: NetName=VCC Pin=U5-14
+Added Pin To Net: NetName=NetQ2_3 Pin=Q2-3
+Added Pin To Net: NetName=NetQ2_3 Pin=R145-1
+Added Net: Name=NetQ2_3
+Added Member To Class: ClassName=EST_MainV20 Member=Component R145 /
+Added Member To Class: ClassName=Designator2 Member=Component R171 100K
+Added Member To Class: ClassName=Designator2 Member=Component R172 100K
+Added Member To Class: ClassName=Designator2 Member=Component R173 100K
+Added Member To Class: ClassName=Designator2 Member=Component R174 100K

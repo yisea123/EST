@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=C3 Old Footprint=CAP_0603 New Footprint=CAP_0805
+Change Component Footprint: Designator=U6 Old Footprint=SO-14 New Footprint=LB1836
+Change Component Footprint: Designator=U7 Old Footprint=SO-14 New Footprint=LB1836

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=BLE_IO2 Pin=U1-79
+Removed Pin From Net: NetName=LCD_SDAO Pin=U1-80
+Added Pin To Net: NetName=LCD_SDAI Pin=U1-74
+Added Pin To Net: NetName=LCD_RST Pin=U1-77
+Added Pin To Net: NetName=LCD_SCK Pin=U1-78
+Added Pin To Net: NetName=LCD_SDAO Pin=U1-79
+Added Pin To Net: NetName=BLE_IO2 Pin=U1-80

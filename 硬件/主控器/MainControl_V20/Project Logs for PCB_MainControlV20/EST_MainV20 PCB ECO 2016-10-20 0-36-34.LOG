@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=V33 Pin=U4-14
+Added Pin To Net: NetName=V33 Pin=U5-14
+Change Class Name : Old Net Name=Designator New Net Name=Designator3
+Added Class: Name=Designator4
+Added Room: Name=Designator1
+Added Room: Name=Designator2
+Added Room: Name=Designator3
+Added Room: Name=Designator4
+Added Room: Name=EST_MainV20

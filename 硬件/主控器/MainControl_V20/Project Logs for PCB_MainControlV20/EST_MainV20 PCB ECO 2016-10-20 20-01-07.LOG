@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=RXINA_EN Pin=U4-1
+Removed Pin From Net: NetName=NetR80_2 Pin=U4-2
+Removed Pin From Net: NetName=RXINA Pin=U4-3
+Removed Pin From Net: NetName=RXINA_EN Pin=U4-4
+Removed Pin From Net: NetName=TXINA Pin=U4-5
+Removed Pin From Net: NetName=NetR65_2 Pin=U4-6
+Removed Pin From Net: NetName=GND Pin=U4-7
+Removed Pin From Net: NetName=NetR66_2 Pin=U4-8
+Removed Pin From Net: NetName=TXINB Pin=U4-9
+Removed Pin From Net: NetName=RXINB_EN Pin=U4-10
+Removed Pin From Net: NetName=V33 Pin=U4-14
+Removed Member From Class: ClassName=Designator1 Member=U54
+Change Component Designator: OldDesignator=U54 NewDesignator=U4
+Added Pin To Net: NetName=RXINA_EN Pin=U4-1
+Added Pin To Net: NetName=NetR80_2 Pin=U4-2
+Added Pin To Net: NetName=RXINA Pin=U4-3
+Added Pin To Net: NetName=RXINA_EN Pin=U4-4
+Added Pin To Net: NetName=TXINA Pin=U4-5
+Added Pin To Net: NetName=NetR65_2 Pin=U4-6
+Added Pin To Net: NetName=NetR66_2 Pin=U4-8
+Added Pin To Net: NetName=TXINB Pin=U4-9
+Added Pin To Net: NetName=RXINB_EN Pin=U4-10
+Added Pin To Net: NetName=V33 Pin=U4-14
+Added Pin To Net: NetName=VCC Pin=U5-14

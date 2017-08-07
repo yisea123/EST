@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=LED2 Pin=U1-89
+Removed Pin From Net: NetName=VS_DREQ Pin=U1-93
+Removed Pin From Net: NetName=MDIN1 Pin=U1-96
+Removed Pin From Net: NetName=MDIN0 Pin=U1-97
+Removed Pin From Net: NetName=MCIN0 Pin=U1-98
+Removed Pin From Net: NetName=MCIN1 Pin=U1-99
+Added Pin To Net: NetName=VS_DREQ Pin=U1-89
+Added Pin To Net: NetName=MDIN1 Pin=U1-90
+Added Pin To Net: NetName=MDIN0 Pin=U1-91
+Added Pin To Net: NetName=MCIN0 Pin=U1-92
+Added Pin To Net: NetName=MCIN1 Pin=U1-93

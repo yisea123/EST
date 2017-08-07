@@ -1,0 +1,4 @@
+Added Component: Designator=J11(EST_POW_SW)
+Added Pin To Net: NetName=GND Pin=J11-2
+Added Pin To Net: NetName=NetC69_2 Pin=J11-3
+Added Member To Class: ClassName=Designator4 Member=Component J11 CON3

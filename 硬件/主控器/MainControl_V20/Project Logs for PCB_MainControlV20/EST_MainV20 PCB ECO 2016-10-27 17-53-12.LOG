@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=VS_XDCS Pin=U1-77
+Removed Pin From Net: NetName=LED1 Pin=U1-87
+Removed Pin From Net: NetName=LED2 Pin=U1-88
+Change Component Comment : Designator=R6 Old Comment=10K New Comment=1K
+Change Component Comment : Designator=R3 Old Comment=10K New Comment=1K
+Change Component Comment : Designator=R1 Old Comment=10K New Comment=1K
+Change Component Comment : Designator=Q2 Old Comment=NPN New Comment=SS8050
+Change Component Comment : Designator=Q1 Old Comment=NPN New Comment=SS8050
+Added Pin To Net: NetName=LCD_SDAO Pin=U1-80
+Added Pin To Net: NetName=VS_XDCS Pin=U1-87
+Added Pin To Net: NetName=LED1 Pin=U1-88
+Added Pin To Net: NetName=LED2 Pin=U1-89

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TACHOC0 Pin=U1-96
+Removed Pin From Net: NetName=TACHOC1 Pin=U1-97
+Added Pin To Net: NetName=TACHOC1 Pin=U1-96
+Added Pin To Net: NetName=TACHOC0 Pin=U1-97

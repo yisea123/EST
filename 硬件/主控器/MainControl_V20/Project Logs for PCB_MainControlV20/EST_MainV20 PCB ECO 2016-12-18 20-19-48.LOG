@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BLE_IO2 Pin=BLE-1
+Removed Pin From Net: NetName=BLE_IO1 Pin=BLE-2
+Removed Pin From Net: NetName=BLE_TX Pin=BLE-3
+Removed Pin From Net: NetName=BLE_RX Pin=BLE-4
+Removed Pin From Net: NetName=GND Pin=BLE-5
+Removed Pin From Net: NetName=VCC Pin=BLE-6
+Removed Pin From Net: NetName=BELL Pin=U1-86
+Removed Pin From Net: NetName=VS_XDCS Pin=U1-87
+Added Pin To Net: NetName=GND Pin=BLE-1
+Added Pin To Net: NetName=VCC Pin=BLE-2
+Added Pin To Net: NetName=BLE_IO2 Pin=BLE-3
+Added Pin To Net: NetName=BLE_IO1 Pin=BLE-4
+Added Pin To Net: NetName=BLE_TX Pin=BLE-5
+Added Pin To Net: NetName=BLE_RX Pin=BLE-6
+Added Pin To Net: NetName=VS_XDCS Pin=U1-86
+Added Pin To Net: NetName=BELL Pin=U1-87

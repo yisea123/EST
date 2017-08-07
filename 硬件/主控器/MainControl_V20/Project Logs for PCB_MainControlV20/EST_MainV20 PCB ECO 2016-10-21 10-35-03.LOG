@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=TXINC Pin=U5-2
+Removed Pin From Net: NetName=NetR67_2 Pin=U5-3
+Removed Pin From Net: NetName=NetR84_2 Pin=U5-5
+Removed Pin From Net: NetName=RXINC Pin=U5-6
+Change Component Footprint: Designator=Y1 Old Footprint=XTAL2_SMD New Footprint=XTAL_5032
+Change Component Footprint: Designator=Y2 Old Footprint=XTAL2_SMD New Footprint=XTAL_5032
+Change Component Comment : Designator=Y2 Old Comment=8MHz New Comment=12.28MHz
+Added Pin To Net: NetName=VCC Pin=U4-14
+Added Pin To Net: NetName=NetR84_2 Pin=U5-2
+Added Pin To Net: NetName=RXINC Pin=U5-3
+Added Pin To Net: NetName=TXINC Pin=U5-5
+Added Pin To Net: NetName=NetR67_2 Pin=U5-6
+Added Pin To Net: NetName=V33 Pin=U5-14

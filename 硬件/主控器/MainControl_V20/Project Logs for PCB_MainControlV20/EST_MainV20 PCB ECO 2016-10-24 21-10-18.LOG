@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=LEGDETD Pin=U1-64
+Removed Pin From Net: NetName=RXIND_EN Pin=U1-65
+Removed Pin From Net: NetName=DIGID0 Pin=U1-66
+Removed Pin From Net: NetName=DIGID1 Pin=U1-67
+Removed Pin From Net: NetName=I_OND Pin=U1-68
+Added Pin To Net: NetName=RXIND_EN Pin=U1-60
+Added Pin To Net: NetName=LEGDETD Pin=U1-63
+Added Pin To Net: NetName=DIGID0 Pin=U1-64
+Added Pin To Net: NetName=DIGID1 Pin=U1-65
+Added Pin To Net: NetName=I_OND Pin=U1-66

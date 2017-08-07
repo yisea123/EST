@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DIGIC0 Pin=U1-56
+Removed Pin From Net: NetName=DIGIC1 Pin=U1-57
+Removed Pin From Net: NetName=I_ONC Pin=U1-58
+Removed Pin From Net: NetName=LEGDETC Pin=U1-60
+Added Pin To Net: NetName=I_ONC Pin=U1-55
+Added Pin To Net: NetName=DIGIC1 Pin=U1-56
+Added Pin To Net: NetName=DIGIC0 Pin=U1-57
+Added Pin To Net: NetName=LEGDETC Pin=U1-58

@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=D1 Old Footprint=8050SMD New Footprint=BAT54S
+Change Component Footprint: Designator=D2 Old Footprint=8050SMD New Footprint=BAT54S
+Change Component Footprint: Designator=D3 Old Footprint=8050SMD New Footprint=BAT54S
+Change Component Footprint: Designator=D4 Old Footprint=8050SMD New Footprint=BAT54S
+Added Pin To Net: NetName=VCC Pin=U4-14
+Added Pin To Net: NetName=VCC Pin=U5-14

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCPWM Pin=U1-81
+Removed Pin From Net: NetName=MDPWM Pin=U1-82
+Added Pin To Net: NetName=MDPWM Pin=U1-81
+Added Pin To Net: NetName=MCPWM Pin=U1-82

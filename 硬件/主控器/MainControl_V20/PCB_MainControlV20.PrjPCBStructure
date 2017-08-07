@@ -1,0 +1,5 @@
+Record=SheetSymbol|SourceDocument=EST_MainV20.SchDoc|Designator=Designator1|SchDesignator=Designator1|FileName=EST_MainV20_Input.SCHDOC|SymbolType=Normal|RawFileName=EST_MainV20_Input.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=EST_MainV20.SchDoc|Designator=Designator2|SchDesignator=Designator2|FileName=EST_MainV20_Output.SCHDOC|SymbolType=Normal|RawFileName=EST_MainV20_Output.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=EST_MainV20.SchDoc|Designator=Designator3|SchDesignator=Designator3|FileName=EST_MainV20_Voice.SCHDOC|SymbolType=Normal|RawFileName=EST_MainV20_Voice.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=EST_MainV20.SchDoc|Designator=Designator4|SchDesignator=Designator4|FileName=EST_MainV20_Power.SCHDOC|SymbolType=Normal|RawFileName=EST_MainV20_Power.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=EST_MainV20.SchDoc

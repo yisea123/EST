@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Touch v2.1.PcbDoc   2016/12/7  15:00:42
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Touch v2.1.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          14               3.79 Inch (96.31 mm)
+T2        15mil (0.381mm)          Round          14               3.19 Inch (81.13 mm)
+T3        27.56mil (0.70002mm)     Round          6                2.15 Inch (54.74 mm)
+---------------------------------------------------------------------------
+Totals                                            34               9.14 Inch (232.18 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

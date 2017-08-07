@@ -1,0 +1,32 @@
+Change Component Footprint: Designator=J2 Old Footprint=FPC0.5-12 New Footprint=FPC_12P
+Change Component Footprint: Designator=LCD1 Old Footprint=FPC0.5-30 New Footprint=FPC_30P
+Change Component Comment : Designator=R41 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R21 Old Comment=2.2K New Comment=2K
+Change Component Comment : Designator=R33 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R13 Old Comment=6.8K New Comment=4.7K
+Change Component Comment : Designator=R10 Old Comment=10K New Comment=0
+Change Component Comment : Designator=R50 Old Comment=10K New Comment=4.7K
+Change Component Comment : Designator=R57 Old Comment=10K New Comment=18K
+Change Component Comment : Designator=C36 Old Comment=10pF New Comment=47pF
+Change Component Comment : Designator=C56 Old Comment=104 New Comment=103
+Change Component Comment : Designator=C55 Old Comment=104 New Comment=103
+Change Component Comment : Designator=R80 Old Comment=220 New Comment=330
+Change Component Comment : Designator=R65 Old Comment=220 New Comment=330
+Change Component Comment : Designator=C57 Old Comment=471 New Comment=104
+Change Component Comment : Designator=E1 Old Comment=CAP New Comment=100uF/16V
+Change Component Comment : Designator=C40 Old Comment=CAP New Comment=104
+Change Component Comment : Designator=C39 Old Comment=CAP New Comment=104
+Change Component Comment : Designator=C19 Old Comment=CAP New Comment=330pF
+Change Component Comment : Designator=Q7 Old Comment=NPN New Comment=SS8050
+Change Component Comment : Designator=R154 Old Comment=RES New Comment=1K
+Change Component Comment : Designator=R157 Old Comment=RES New Comment=2K
+Change Component Comment : Designator=R108 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R107 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R106 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R105 Old Comment=RES New Comment=4.7K
+Change Component Comment : Designator=R160 Old Comment=RES New Comment=10K
+Change Component Comment : Designator=R159 Old Comment=RES New Comment=10K
+Change Component Comment : Designator=R158 Old Comment=RES New Comment=10K
+Change Component Comment : Designator=R153 Old Comment=RES New Comment=10K
+Change Component Comment : Designator=R156 Old Comment=RES New Comment=20K
+Change Component Comment : Designator=R155 Old Comment=RES New Comment=20K

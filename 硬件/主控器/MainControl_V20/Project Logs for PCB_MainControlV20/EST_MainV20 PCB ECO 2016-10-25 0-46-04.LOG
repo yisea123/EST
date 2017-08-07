@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=INTC0 Pin=U1-129
+Added Pin To Net: NetName=DIRB Pin=U1-128
+Added Pin To Net: NetName=INTB0 Pin=U1-129

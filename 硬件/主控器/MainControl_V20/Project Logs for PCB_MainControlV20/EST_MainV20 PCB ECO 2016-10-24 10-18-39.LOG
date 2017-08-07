@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=E5 Old Footprint=KLF_CD0.254 New Footprint=1812
+Change Component Footprint: Designator=E6 Old Footprint=KLF_CD0.254 New Footprint=1812
+Change Component Footprint: Designator=E7 Old Footprint=KLF_CD0.254 New Footprint=1812
+Added Pin To Net: NetName=VCC Pin=U4-14
+Added Pin To Net: NetName=V33 Pin=U5-14

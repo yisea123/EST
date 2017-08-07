@@ -1,0 +1,724 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xue xue, xue, LIC=TIVLQ-NUQVE-KNPAC-79V4Q-B1KVK-64PBT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  d:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\EST\EST软硬件设计\EST主控器\软件\主代码\Dr.luck_Robot_20170609\Project\Dr.luck_Robot_Brick\MDK-ARM\Brick.uvprojx
+Project File Date:  06/15/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Dr_luck_Robot'
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_cryp_aes.c...
+compiling stm32f4xx_cryp_des.c...
+compiling stm32f4xx_cryp_tdes.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_dbgmcu.c...
+compiling stm32f4xx_dcmi.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_hash.c...
+compiling stm32f4xx_hash_md5.c...
+compiling stm32f4xx_hash_sha1.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+compiling misc.c...
+compiling stm324xg_eval.c...
+compiling stm324xg_eval_ioe.c...
+compiling stm324xg_eval_sdio_sd.c...
+assembling startup_stm32f4xx.s...
+compiling system_stm32f4xx.c...
+compiling usbh_core.c...
+compiling usbh_hcs.c...
+compiling usbh_ioreq.c...
+compiling usbh_stdreq.c...
+compiling usbh_hid_core.c...
+compiling usbh_hid_keybd.c...
+compiling usbh_hid_mouse.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\..\..\Libraries\STM32_USB_HOST_Library\Class\HID\src\usbh_hid_mouse.c: 5 warnings, 0 errors
+compiling C_Protocol.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\Com\C_Protocol.c(241): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  																	strcpy(fpath,"1:");
+..\src\Com\C_Protocol.c(245): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  																		strcpy(file_load[i].name,"");
+..\src\Com\C_Protocol.c(251): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  																	scan_files(fpath,0);
+..\src\Com\C_Protocol.c(415): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  																strcpy(allfile[i],"");
+..\src\Com\C_Protocol.c(418): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  															strcpy(fpath,"1:");
+..\src\Com\C_Protocol.c(419): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  															scan_all_files(fpath);
+..\src\Com\C_Protocol.c(780): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	name_len = (strlen(buff)-2);
+..\src\Com\C_Protocol.c: 12 warnings, 0 errors
+compiling usbd_core.c...
+compiling usbd_req.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\..\..\Libraries\STM32_USB_Device_Library\Core\src\usbd_req.c: 5 warnings, 0 errors
+compiling usbd_ioreq.c...
+compiling usbd_cdc_core.c...
+compiling usbd_hid_core.c...
+compiling usb_core.c...
+compiling usb_dcd.c...
+compiling usb_dcd_int.c...
+compiling usb_hcd.c...
+compiling usb_hcd_int.c...
+compiling usb_bsp.c...
+compiling usbd_usr.c...
+compiling usbd_desc.c...
+compiling usbd_cdc_vcp.c...
+compiling usbh_usr.c...
+compiling key.c...
+..\src\SYSTEM\key.c(171): warning:  #111-D: statement is unreachable
+  						break;						
+..\src\SYSTEM\key.c(175): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\SYSTEM\key.c: 2 warnings, 0 errors
+compiling sys.c...
+compiling usart1.c...
+compiling usart2.c...
+compiling usart3.c...
+compiling uart4.c...
+compiling usart6.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\SYSTEM\usart6.c(224): warning:  #223-D: function "memcmp" declared implicitly
+  										if(memcmp(USART6_RX_BUF+17,"NAME:",strlen("NAME:"))==0)
+..\src\SYSTEM\usart6.c(224): warning:  #223-D: function "strlen" declared implicitly
+  										if(memcmp(USART6_RX_BUF+17,"NAME:",strlen("NAME:"))==0)
+..\src\SYSTEM\usart6.c(126): warning:  #177-D: variable "i"  was declared but never referenced
+  	u8 Res2,i=0,t,j=0;
+..\src\SYSTEM\usart6.c(319): warning:  #223-D: function "memcmp" declared implicitly
+  		if(memcmp(USART6_RX_BUF,str,strlen(str))==0)
+..\src\SYSTEM\usart6.c(319): warning:  #223-D: function "strlen" declared implicitly
+  		if(memcmp(USART6_RX_BUF,str,strlen(str))==0)
+..\src\SYSTEM\usart6.c(336): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\SYSTEM\usart6.c(318): warning:  #177-D: variable "i"  was declared but never referenced
+  	int i;
+..\src\SYSTEM\usart6.c: 12 warnings, 0 errors
+compiling iic.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\SYSTEM\iic.c: 5 warnings, 0 errors
+compiling rng.c...
+compiling spi.c...
+compiling w25qxx.c...
+compiling power.c...
+compiling adc.c...
+compiling exti.c...
+compiling battery.c...
+compiling iwdg.c...
+compiling delay.c...
+compiling timer3.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\SYSTEM\timer3.c(56): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		else if( lcd_value >= 0 && lcd_value < light_volume/10)
+..\src\SYSTEM\timer3.c: 6 warnings, 0 errors
+compiling getspeed.c...
+compiling pwm.c...
+compiling outputworkmode.c...
+compiling OptimizePid.c...
+compiling iic_sensor.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\Input\iic_sensor.c(809): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  						FloatToByte4((((u16)TmpBuffer[1]>>4 | (((u16)TmpBuffer[0])<<4))*0.0625f*1.8)+32.0f, Channel_State[Port], 0);
+..\src\Input\iic_sensor.c: 6 warnings, 0 errors
+compiling usart_sensor.c...
+compiling input.c...
+compiling adc_sensor.c...
+compiling disassembly.c...
+compiling brickperipheral.c...
+..\src\Com\brickperipheral.c(399): warning:  #68-D: integer conversion resulted in a change of sign
+  				{	piano_num = -1;}
+..\src\Com\brickperipheral.c(266): warning:  #550-D: variable "volume"  was set but never used
+  	float frequency,volume,continuetime;
+..\src\Com\brickperipheral.c: 2 warnings, 0 errors
+compiling excutefunction.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\Com\excutefunction.c(2415): warning:  #550-D: variable "Par"  was set but never used
+  	uint8_t i,Par[16];
+..\src\Com\excutefunction.c(2431): warning:  #550-D: variable "Par"  was set but never used
+  	uint8_t i,Par[16];
+..\src\Com\excutefunction.c(2447): warning:  #550-D: variable "Par"  was set but never used
+  	uint8_t i,Par[16];
+..\src\Com\excutefunction.c(2463): warning:  #550-D: variable "Par"  was set but never used
+  	uint8_t i,Par[16];
+..\src\Com\excutefunction.c(2479): warning:  #550-D: variable "Par"  was set but never used
+  	uint8_t i,Par[16];
+..\src\Com\excutefunction.c(2495): warning:  #550-D: variable "Par"  was set but never used
+  	uint8_t i,Par[16];
+..\src\Com\excutefunction.c(2572): warning:  #550-D: variable "address1"  was set but never used
+  	uint32_t address1,address2,address3;
+..\src\Com\excutefunction.c(2572): warning:  #550-D: variable "address2"  was set but never used
+  	uint32_t address1,address2,address3;
+..\src\Com\excutefunction.c(2572): warning:  #550-D: variable "address3"  was set but never used
+  	uint32_t address1,address2,address3;
+..\src\Com\excutefunction.c: 14 warnings, 0 errors
+compiling C_Protocol.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\Com\C_Protocol.c(241): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  																	strcpy(fpath,"1:");
+..\src\Com\C_Protocol.c(245): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  																		strcpy(file_load[i].name,"");
+..\src\Com\C_Protocol.c(251): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  																	scan_files(fpath,0);
+..\src\Com\C_Protocol.c(415): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  																strcpy(allfile[i],"");
+..\src\Com\C_Protocol.c(418): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  															strcpy(fpath,"1:");
+..\src\Com\C_Protocol.c(419): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  															scan_all_files(fpath);
+..\src\Com\C_Protocol.c(780): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  	name_len = (strlen(buff)-2);
+..\src\Com\C_Protocol.c: 12 warnings, 0 errors
+compiling Bluetooth.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\Com\Bluetooth.c(38): warning:  #1295-D: Deprecated declaration bluetooth_judge_key - give arg types
+  void bluetooth_judge_key();   //确定键判断
+..\src\Com\Bluetooth.c(90): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strcpy(device_name,"EST(");
+..\src\Com\Bluetooth.c(114): warning:  #223-D: function "UI_Update" declared implicitly
+  				UI_Update(tab_flag.Tab_Level,tab_flag.MainTab_choice,Tab);
+..\src\Com\Bluetooth.c(143): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy(device_bond[0]," ");
+..\src\Com\Bluetooth.c(145): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy((u8*)device_bond[0],(u8*)device[bluetooth_judge]);
+..\src\Com\Bluetooth.c(145): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  					strcpy((u8*)device_bond[0],(u8*)device[bluetooth_judge]);
+..\src\Com\Bluetooth.c(181): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy(device_bond[0]," ");
+..\src\Com\Bluetooth.c(183): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy((u8*)device_bond[0],(u8*)device[0]);
+..\src\Com\Bluetooth.c(183): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  					strcpy((u8*)device_bond[0],(u8*)device[0]);
+..\src\Com\Bluetooth.c(42): warning:  #177-D: variable "i"  was declared but never referenced
+  	u8 i;
+..\src\Com\Bluetooth.c(43): warning:  #177-D: variable "temp"  was declared but never referenced
+    u8 temp = 0;
+..\src\Com\Bluetooth.c(396): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								strcpy(device[0]," ");
+..\src\Com\Bluetooth.c(525): warning:  #174-D: expression has no effect
+  								blue_1_state==0;
+..\src\Com\Bluetooth.c(649): warning:  #223-D: function "UI_Update" declared implicitly
+  									UI_Update(tab_flag.Tab_Level,tab_flag.MainTab_choice,Tab);
+..\src\Com\Bluetooth.c(754): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								strcpy(device_bond[0]," ");
+..\src\Com\Bluetooth.c(768): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								strcpy(device[bluetooth_judge]," ");
+..\src\Com\Bluetooth.c(772): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  										strcpy(device[i],device[i+1]);
+..\src\Com\Bluetooth.c(772): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  										strcpy(device[i],device[i+1]);
+..\src\Com\Bluetooth.c(773): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  									strcpy(device[dis_sum-1]," ");
+..\src\Com\Bluetooth.c(842): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+      if(strcmp(device_bond[i],device[bluetooth_judge]) == 0)
+..\src\Com\Bluetooth.c(842): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+      if(strcmp(device_bond[i],device[bluetooth_judge]) == 0)
+..\src\Com\Bluetooth.c(879): warning:  #225-D: the format string ends before this argument
+  		printf("AT+CONNL",bluetooth_judge);
+..\src\Com\Bluetooth.c: 32 warnings, 0 errors
+compiling cascade.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\CASCADE\cascade.c: 5 warnings, 0 errors
+compiling spi3.c...
+compiling music.c...
+compiling vs10xx.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\SOUND\vs10xx.c(609): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\SOUND\vs10xx.c: 6 warnings, 0 errors
+compiling myfatfs.c...
+..\src\FATFS\myfatfs.c(128): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  				sprintf(&allfile[allfile_name_num][strlen(allfile[allfile_name_num])], "%s",path); 
+..\src\FATFS\myfatfs.c(128): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(&allfile[allfile_name_num][strlen(allfile[allfile_name_num])], "%s",path); 
+..\src\FATFS\myfatfs.c(129): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  				sprintf(&allfile[allfile_name_num][strlen(allfile[allfile_name_num])], "/%s",fn); 
+..\src\FATFS\myfatfs.c(129): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(&allfile[allfile_name_num][strlen(allfile[allfile_name_num])], "/%s",fn); 
+..\src\FATFS\myfatfs.c(238): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					file_load[file_name_num].type = f_typetell(file_load[file_name_num].name);	
+..\src\FATFS\myfatfs.c(239): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  					sprintf(&file_load[file_name_num].name[strlen(file_load[file_name_num].name)-4], "%s",' '); 			
+..\src\FATFS\myfatfs.c(239): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					sprintf(&file_load[file_name_num].name[strlen(file_load[file_name_num].name)-4], "%s",' '); 			
+..\src\FATFS\myfatfs.c(239): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  					sprintf(&file_load[file_name_num].name[strlen(file_load[file_name_num].name)-4], "%s",' '); 			
+..\src\FATFS\myfatfs.c(264): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						sprintf(&file_load[file_name_num].name[strlen(file_load[file_name_num].name)-4], "%s",' '); 
+..\src\FATFS\myfatfs.c(264): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						sprintf(&file_load[file_name_num].name[strlen(file_load[file_name_num].name)-4], "%s",' '); 
+..\src\FATFS\myfatfs.c(264): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  						sprintf(&file_load[file_name_num].name[strlen(file_load[file_name_num].name)-4], "%s",' '); 
+..\src\FATFS\myfatfs.c(427): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  			strcpy(fpath,"1:");
+..\src\FATFS\myfatfs.c(430): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strcpy(file_load[i].name,"");
+..\src\FATFS\myfatfs.c(435): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  			scan_files(fpath,0);
+..\src\FATFS\myfatfs.c: 14 warnings, 0 errors
+compiling cc936.c...
+compiling diskio.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\FATFS\src\diskio.c: 5 warnings, 0 errors
+compiling ff.c...
+compiling iap.c...
+compiling flash.c...
+compiling flash_if.c...
+compiling uc1638c.c...
+..\src\LCD\uc1638c.c(473): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+  	LCD_ShowString(x, y, myfloat, size, 0);	
+..\src\LCD\uc1638c.c(710): warning:  #1-D: last line of file ends without a newline
+  } 
+..\src\LCD\uc1638c.c: 2 warnings, 0 errors
+compiling ui_pic.c...
+compiling myfont.c...
+..\src\LCD\myfont.c(703): warning:  #1-D: last line of file ends without a newline
+  };
+..\src\LCD\myfont.c: 1 warning, 0 errors
+compiling ui_control.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\LCD\ui_control.c(115): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  	strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(119): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  		strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(125): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  	scan_files(fpath,0);
+..\src\LCD\ui_control.c(234): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(238): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(245): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					scan_files(fpath,0);
+..\src\LCD\ui_control.c(250): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					scan_files(fpath,1);
+..\src\LCD\ui_control.c(274): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(278): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(285): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					scan_files(fpath,0);
+..\src\LCD\ui_control.c(290): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					scan_files(fpath,1);
+..\src\LCD\ui_control.c(303): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						for(i=0; i<strlen(file_load[Tab[tab_flag.MainTab_choice].Location].path)+strlen(file_load[Tab[tab_flag.MainTab_choice].Location].name)+9; i++)
+..\src\LCD\ui_control.c(303): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						for(i=0; i<strlen(file_load[Tab[tab_flag.MainTab_choice].Location].path)+strlen(file_load[Tab[tab_flag.MainTab_choice].Location].name)+9; i++)
+..\src\LCD\ui_control.c(307): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].Location].path); 
+..\src\LCD\ui_control.c(307): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].Location].path); 
+..\src\LCD\ui_control.c(308): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].Location].name); 
+..\src\LCD\ui_control.c(308): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].Location].name); 
+..\src\LCD\ui_control.c(309): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						sprintf(&myfilename[strlen(myfilename)], "%s", ".dbf"); 
+..\src\LCD\ui_control.c(309): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						sprintf(&myfilename[strlen(myfilename)], "%s", ".dbf"); 
+..\src\LCD\ui_control.c(323): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						strcpy(oldfpath,fpath);
+..\src\LCD\ui_control.c(323): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  						strcpy(oldfpath,fpath);
+..\src\LCD\ui_control.c(324): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						sprintf(&fpath[strlen(fpath)], "/%s", file_load[Tab[tab_flag.MainTab_choice].Location].name); 
+..\src\LCD\ui_control.c(324): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						sprintf(&fpath[strlen(fpath)], "/%s", file_load[Tab[tab_flag.MainTab_choice].Location].name); 
+..\src\LCD\ui_control.c(327): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  							strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(333): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  						scan_files(fpath,1);
+..\src\LCD\ui_control.c(354): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(358): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(365): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					scan_files(fpath,0);
+..\src\LCD\ui_control.c(370): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  					scan_files(fpath,1);
+..\src\LCD\ui_control.c(387): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  						sprintf(&fpath[strlen(fpath)], "/%s", file_load[Tab[tab_flag.MainTab_choice].Location].name); 
+..\src\LCD\ui_control.c(387): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						sprintf(&fpath[strlen(fpath)], "/%s", file_load[Tab[tab_flag.MainTab_choice].Location].name); 
+..\src\LCD\ui_control.c(504): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(508): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  									strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(515): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  									scan_files(fpath,0);
+..\src\LCD\ui_control.c(520): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  									scan_files(fpath,1);
+..\src\LCD\ui_control.c(536): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(540): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  									strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(547): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  									scan_files(fpath,0);
+..\src\LCD\ui_control.c(552): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  									scan_files(fpath,1);
+..\src\LCD\ui_control.c(565): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								for(i=0; i<strlen(file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path)
+..\src\LCD\ui_control.c(566): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  												+ strlen(file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name)+9; i++)
+..\src\LCD\ui_control.c(570): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path); 
+..\src\LCD\ui_control.c(570): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path); 
+..\src\LCD\ui_control.c(571): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name); 
+..\src\LCD\ui_control.c(571): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name); 
+..\src\LCD\ui_control.c(572): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", ".dbf"); 
+..\src\LCD\ui_control.c(572): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", ".dbf"); 
+..\src\LCD\ui_control.c(585): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								for(i=0; i<strlen(file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path)
+..\src\LCD\ui_control.c(586): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  												+ strlen(file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name)+9; i++)
+..\src\LCD\ui_control.c(590): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path); 
+..\src\LCD\ui_control.c(590): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path); 
+..\src\LCD\ui_control.c(591): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name); 
+..\src\LCD\ui_control.c(591): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name); 
+..\src\LCD\ui_control.c(592): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", ".dpf"); 
+..\src\LCD\ui_control.c(592): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", ".dpf"); 
+..\src\LCD\ui_control.c(622): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								for(i=0; i<strlen(file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path)
+..\src\LCD\ui_control.c(623): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  												+ strlen(file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name)+9; i++)
+..\src\LCD\ui_control.c(627): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path); 
+..\src\LCD\ui_control.c(627): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].path); 
+..\src\LCD\ui_control.c(628): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name); 
+..\src\LCD\ui_control.c(628): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "/%s", file_load[Tab[tab_flag.MainTab_choice].SubLocation[Tab[tab_flag.MainTab_choice].Location]].name); 
+..\src\LCD\ui_control.c(629): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", ".mp3"); 
+..\src\LCD\ui_control.c(629): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								sprintf(&myfilename[strlen(myfilename)], "%s", ".mp3"); 
+..\src\LCD\ui_control.c(649): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  							strcpy(fpath,oldfpath);
+..\src\LCD\ui_control.c(649): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  							strcpy(fpath,oldfpath);
+..\src\LCD\ui_control.c(652): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  								strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(658): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  							scan_files(fpath,1);
+..\src\LCD\ui_control.c(1894): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const TCHAR *"
+  				res_flash = f_deldir(fpath);
+..\src\LCD\ui_control.c(1896): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strcpy(fpath,"1:");
+..\src\LCD\ui_control.c(1900): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  					strcpy(file_load[i].name,"");
+..\src\LCD\ui_control.c(1905): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  				scan_files(fpath,1);
+..\src\LCD\ui_control.c(1975): warning:  #223-D: function "diffrence_judge" declared implicitly
+  					if(diffrence_judge(device_sum))    ////判断是否已经绑定并获取当前连接设备号
+..\src\LCD\ui_control.c(1980): warning:  #223-D: function "diffrence_judge" declared implicitly
+  					if(diffrence_judge(device_sum))    ////判断是否已经绑定并获取当前连接设备号
+..\src\LCD\ui_control.c(1983): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						strcpy((u8*)device_bond[0],(u8*)device[bluetooth_judge]);
+..\src\LCD\ui_control.c(1983): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  						strcpy((u8*)device_bond[0],(u8*)device[bluetooth_judge]);
+..\src\LCD\ui_control.c(1999): warning:  #223-D: function "diffrence_judge" declared implicitly
+  				if(diffrence_judge(device_sum))    ////判断是否已经绑定并获取当前连接设备号
+..\src\LCD\ui_control.c(2245): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+  						LCD_ShowString(40,(42+16*i), SettingName_en[j] ,12,0);
+..\src\LCD\ui_control.c(3003): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  								if((strcmp(device[4+bluetooth_window]," ")==0)&&(judge_dis==2))
+..\src\LCD\ui_control.c(3162): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  							sprintf(&storage[0], ":%.1f/%.1f MB",((float)free)/8/1024,((float)total)/8/1024);
+..\src\LCD\ui_control.c(3548): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i;
+..\src\LCD\ui_control.c(3802): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+  	LCD_ShowString(76, 44, (char* )TypeData[port]		//所选port
+..\src\LCD\ui_control.c: 86 warnings, 0 errors
+compiling text.c...
+compiling piano.c...
+compiling test.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\test.c(517): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  			sprintf(&storage[0], "%.1f MB",((float)free)/1024);
+..\src\test.c: 6 warnings, 0 errors
+compiling main.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\main.c(154): warning:  #223-D: function "UI_Test" declared implicitly
+  				UI_Test(ButtonAction);
+..\src\main.c(189): warning:  #223-D: function "Motor_Movement" declared implicitly
+  			Motor_Movement();
+..\src\main.c: 7 warnings, 0 errors
+compiling stm32fxxx_it.c...
+..\src\Com\Bluetooth.h(18): warning:  #1295-D: Deprecated declaration blue_break_Init - give arg types
+  void blue_break_Init();
+..\src\Com\Bluetooth.h(20): warning:  #1295-D: Deprecated declaration bluetooch_waiting - give arg types
+  void bluetooch_waiting();
+..\src\Com\Bluetooth.h(21): warning:  #1295-D: Deprecated declaration bluetooth_msg - give arg types
+  void bluetooth_msg();
+..\src\Com\Bluetooth.h(22): warning:  #1295-D: Deprecated declaration bluetooth_init - give arg types
+  void bluetooth_init();
+..\src\Com\Bluetooth.h(50): warning:  #1-D: last line of file ends without a newline
+  extern u8 blue_3_state;
+..\src\stm32fxxx_it.c: 5 warnings, 0 errors
+linking...
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol __asm___12_C_Protocol_c_d790775b____REV16 multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol __asm___12_C_Protocol_c_d790775b____REVSH multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Channel_State multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol USB_Rx_Buff multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol UserWareData multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol UserMotorControlData multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Receive_start multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol i multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol programlen multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol errorflag multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Receive_end multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol flashbuff_start multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol flashtimeout multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol updateflash_start multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol updateflashtimeout multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol usbmasterflag multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol project_file_num multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol project_file_num_now multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol USB_Rx_Length multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol USB_TimePic multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Flash_TimePic multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol UpdateFlash_TimePic multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Updateflash_length multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol usbmastertimems multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol CheckOrder multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol EndProgram multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol EnterProgram multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol FlashBuffLoseCheck multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol FrameBuffLoseCheck multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol FrameOrFlashBuffLoseCheck multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol GetRamData multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol ProgramToFlash multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol ProgramToUpdateFlash multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Error_Order multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_FATFS_File multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_FATFS_Path multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_FATFS_State multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Firmware_Download multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Heartbeat_Packet multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_MotorControl multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Program_Download multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Project_Adr multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Project_State multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Sensor_Data multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_System_Source multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol Send_Wave multiply defined (by c_protocol_1.o and c_protocol.o).
+.\Dr.luck_Robot\Dr.luck_Robot.axf: Error: L6200E: Symbol UpdateState multiply defined (by c_protocol_1.o and c_protocol.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 47 error messages.
+".\Dr.luck_Robot\Dr.luck_Robot.axf" - 47 Error(s), 250 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Dr_luck_Robot
+  d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:37
+</pre>
+</body>
+</html>
